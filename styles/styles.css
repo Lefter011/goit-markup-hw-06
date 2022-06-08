@@ -692,6 +692,11 @@ footer {
     cursor: pointer;
 }
 
+.close-btn:hover,
+.close-btn:focus {
+    fill: var(--hover-color);
+}
+
 .modal-topic {
     margin-top: 40px;
     padding-bottom: 12px;
