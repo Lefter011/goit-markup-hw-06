@@ -277,8 +277,7 @@ footer {
 }
 
 .footer-section-subscribe {
-    flex-grow: 1;
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .footer-section-subscribe-topic {
@@ -298,7 +297,7 @@ footer {
 }
 
 .footer-section-subscribe-input {
-    width: 100%;
+    width: 358px;
     height: 50px;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -661,8 +660,9 @@ footer {
 .modal {
     display: flex;
     flex-direction: column;
+    padding: 40px;
     align-items: center;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -700,8 +700,7 @@ footer {
 }
 
 .modal-topic {
-    margin-top: 40px;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 
     font-weight: 700;
     font-size: 20px;
@@ -712,7 +711,6 @@ footer {
 }
 
 .form-modal {
-    padding: 0 40px;
     text-align: center;
 }
 
@@ -722,6 +720,10 @@ footer {
     width: 100%;
 
     margin-bottom: 10px;
+}
+
+.form-field:nth-child(9) {
+    margin-bottom: 0;
 }
 
 .form-label-text {
@@ -838,7 +840,7 @@ footer {
 .submit {
     width: 200px;
     height: 50px;
-    margin: 30px 0 40px 0;
+    margin-top: 30px;
 
     background: var(--hover-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

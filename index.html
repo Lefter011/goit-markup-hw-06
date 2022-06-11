@@ -518,7 +518,6 @@
                 <use href="./img/symbol-defs.svg#icon-facebook"></use>
               </svg>
             </a>
-
             <a
               class="footer-section-social-link link"
               href="https://www.linkedin.com/"
@@ -531,20 +530,26 @@
             </a>
           </div>
         </div>
-
         <div class="footer-section-subscribe">
           <p class="footer-section-subscribe-topic">Подписаться на рассылку</p>
-          <div class="footer-section-subscribe-form">
+          <form class="footer-section-subscribe-form">
             <input
               class="footer-section-subscribe-input"
               type="email"
-              placeholder="Email"/>
-            <button type="submit" class="footer-section-subscribe-button">Подписаться <svg width="24" height="24">
-              <use href="./img/symbol-defs.svg#icon-plain-footer"></use>
-            </svg></button>
+              placeholder="Email"
+            />
+            <button type="submit" class="footer-section-subscribe-button">
+              Подписаться
+              <svg width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-plain-footer"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
     <div class="backdrop is-hidden" data-modal="">
       <div class="modal">
         <div class="icon-close">
@@ -555,8 +560,7 @@
           </button>
         </div>
         <form class="form-modal">
-          <h2 class="modal-topic">Оставьте свои данные, мы вам перезвоним</h2>
-
+          <p class="modal-topic">Оставьте свои данные, мы вам перезвоним</p>
           <span class="form-label-text">Ваше имя</span>
           <label class="form-field">
             <span class="form-field-icon">
@@ -571,7 +575,6 @@
               autocomplete="off"
             />
           </label>
-
           <span class="form-label-text">Телефон</span>
           <label class="form-field">
             <input
@@ -586,7 +589,6 @@
                 <use href="./img/symbol-defs.svg#icon-phone-modal"></use></svg
             ></span>
           </label>
-
           <span class="form-label-text">Почта</span>
           <label class="form-field">
             <input
@@ -600,7 +602,6 @@
                 <use href="./img/symbol-defs.svg#icon-email-modal"></use></svg
             ></span>
           </label>
-
           <span class="form-label-text">Комментарий</span>
           <label class="form-field">
             <textarea
@@ -609,7 +610,6 @@
               placeholder="Введите текст"
             ></textarea>
           </label>
-
           <label class="field-checkbox">
             <input class="checkbox" type="checkbox" name="topic" value="html" />
             <span class="icon-checkbox"></span>
@@ -618,7 +618,6 @@
               <a href="#">Условия договора</a></span
             >
           </label>
-
           <button type="submit" class="submit">Оставить заявку</button>
         </form>
       </div>
